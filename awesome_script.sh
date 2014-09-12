@@ -48,7 +48,8 @@ echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | su
 #automatically set up the Java 8 environment variables
 sudo apt-get install oracle-java8-set-default
 
-
+#unity tweak tool for system modification 
+sudo apt-get install unity-tweak-tool
 
 
 #guake - terminal
@@ -58,6 +59,46 @@ sudo apt-get install guake
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
 sudo apt-get update
 sudo apt-get install sublime-text-installer
+
+#You can disable overlay scroll-bars, if you don't like them. replace that with regular
+gsettings set com.canonical.desktop.interface scrollbar-mode normal
+
+#disable all spyware in ubuntu
+wget -q -O - https://fixubuntu.com/fixubuntu.sh | bash
+
+#Shutdown, Restart, options from Dash
+sudo add-apt-repository ppa:atareao/atareao -y
+sudo apt-get update
+sudo apt-get install power-commands
+
+#install gufw firewall
+sudo apt-get install gufw
+
+#Compression/Decompression tools
+sudo apt-get install p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
+
+#britghness indicator in the panel
+sudo add-apt-repository ppa:indicator-brightness/ppa -y
+sudo apt-get update
+sudo apt-get install indicator-brightness
+
+#Classic Menu Indicator
+sudo add-apt-repository ppa:diesch/testing -y
+sudo apt-get update
+sudo apt-get install classicmenu-indicator
+
+
+#radio indicator
+sudo add-apt-repository ppa:eugenesan/ppa -y
+sudo apt-get update 
+sudo apt-get install radiotray
+
+
+
+
+
+
+
 
 
 
