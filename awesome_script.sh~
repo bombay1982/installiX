@@ -48,7 +48,28 @@ echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | su
 #automatically set up the Java 8 environment variables
 sudo apt-get install oracle-java8-set-default
 
-
+#install eclipse
+#download
+wget http://mirror.netcologne.de/eclipse/technology/epp/downloads/release/luna/R/eclipse-jee-luna-R-linux-gtk-x86_64.tar.gz
+tar -zxvf eclipse-jee-luna-R-linux-gtk-x86_64.tar.gz
+sudo mv eclipse /opt/
+sudo chown -R root:root eclipse/
+sudo ln -s /opt/eclipse/eclipse /usr/local/bin/eclipse
+#create eclipse starter
+cat <<EOF> /tmp/eclipse.desktop
+[Desktop Entry]
+Encoding=UTF-8
+Name=Eclipse
+Comment=Eclipse IDE
+Exec=eclipse
+Icon=/usr/lib/eclipse/icon.xpm
+Terminal=false
+Type=Application
+Categories=GNOME;Application;Development;
+StartupNotify=true
+EOF
+sudo mv /tmp/eclipse.desktop /usr/share/applications/eclipse.desktop
+sudo chmod +r /usr/share/applications/eclipse.desktop
 
 
 #guake - terminal
