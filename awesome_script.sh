@@ -30,8 +30,8 @@ sudo apt-get install dropbox python-gpgme
 #skype
 sudo apt-get install skype
 
-#program do sprawdzenie dokladnego hardware'u kompa - hardinfo
-#sudo apt-get install hardinfo
+#information about your hardware 
+sudo apt-get install hardinfo
 
 #install better fonts, change them manually with this http://www.binarytides.com/optimize-fonts-linux-mint/
 sudo apt-get install fonts-droid fonts-noto
