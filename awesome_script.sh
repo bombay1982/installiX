@@ -31,7 +31,7 @@ sudo apt-get install dropbox python-gpgme
 sudo apt-get install skype
 
 #program do sprawdzenie dokladnego hardware'u kompa - hardinfo
-sudo apt-get install hardinfo
+#sudo apt-get install hardinfo
 
 #install better fonts, change them manually with this http://www.binarytides.com/optimize-fonts-linux-mint/
 sudo apt-get install fonts-droid fonts-noto
@@ -93,6 +93,7 @@ sudo add-apt-repository ppa:eugenesan/ppa -y
 sudo apt-get update 
 sudo apt-get install radiotray
 
+wget http://sourceforge.net/projects/radiotray/files/releases/radiotray_0.7.3_all.deb/download
 
 
 
