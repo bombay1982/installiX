@@ -1,4 +1,14 @@
-Simple script installing most important programs from programmer point of view.. You can use it for all distributions based on ubuntu however some programs are made for unity like radioindicator.
+Script will install most important programs from programmer point of view. Script is designed to work with fresh Ubuntu. If you have previous programs installed this script is not optimised on this. Make sure you will uninstall previous versions.
+
+Script will be rewritten in Python to increase fuinctionality in the future however I use bash for this. I also used "zenity" for better GUI
+
+Installation instruction:
+--------------------------
+
+1. Install git on your machine  sudo apt-get install git
+2. Clone the this from github	git clone https://github.com/bombay1982/installiX.git
+3. Run it 						sudo sh installiX.sh
+
 
 Programs:
 
