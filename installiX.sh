@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-
+#need to implement this soon
 choice=$(zenity \
     --list \
     --checklist \
