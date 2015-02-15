@@ -1,0 +1,1 @@
+-create external list of repos. it will speed up script installation
