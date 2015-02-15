@@ -158,3 +158,9 @@ EOF
 sudo mv /tmp/eclipse.dgroupesktop /usr/share/applications/eclipse.desktop
 sudo chmod +r /usr/share/applications/eclipse.desktop
 COMMENT1
+
+#theming
+
+#icons
+
+1
