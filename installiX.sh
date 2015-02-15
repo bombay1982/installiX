@@ -115,6 +115,11 @@ sudo apt-get update
 sudo apt-get install radiotray
 wget http://sourceforge.net/projects/radiotray/files/releases/radiotray_0.7.3_all.deb/download
 
+#install wine
+sudo add-apt-repository ppa:ubuntu-wine/ppa -y
+sudo apt-get update
+sudo apt-get install wine1.7 winetricks
+
 #install eclipse
 #download
 cd /tmp/
