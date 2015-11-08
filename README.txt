@@ -1,6 +1,6 @@
 Script will install most important packages from programmer point of view. Script is designed to work with fresh Ubuntu 15.10. Checked on 08/11/2015 
 
-Script will be rewritten in Python to increase fuinctionality in the future however I use bash for this. I also think to use "zenity" for better user experience if I leave it in bash
+Script will be rewritten in Python to increase fuinctionality in the future however I use bash for this. I also plan to use "zenity" for better user experience in bash.
 
 Installation instruction:
 --------------------------
@@ -15,6 +15,7 @@ Packages:
 ----------------------------
 
 SYSTEM:
+----------------------------
 - disables canonical's spyware from ubuntu
 - quake					(dropdown terminal)
 - chromium				(web browser)
@@ -30,20 +31,18 @@ SYSTEM:
 - wine 1.7+wintrcks
 
 JAVA:
+---------------------------
 - sublime text				(code editor)
 - eclipse mars				(java IDE)
 - oracle jdk 8				(script automatically removes other java versions)
 
-
-Fonts installed:
-- droid					(nice fonts for terminal)
-- noto
-
 Panel widgets(Unity only)
+---------------------------
 - classing menu indicator
 - radio indicator			(internet radios in the top bar)
 
 Themes(because we like candy):
+---------------------------
 http://www.noobslab.com/2015/10/flat-plat-theme-makes-your-gnome.html
 http://www.noobslab.com/2015/09/candra-os-anyone-heard-of-them-their-os.html
 http://www.noobslab.com/2015/08/arc-theme-comes-with-dark-light.html
@@ -59,9 +58,9 @@ http://www.noobslab.com/2015/10/borderline-gtk-theme-for-ubuntu-1510.html
 http://www.noobslab.com/2015/09/aurora-another-great-theme-for-gnome.html
 http://www.noobslab.com/2013/06/zoncolor-themes-and-icons-package-for.html
 http://www.noobslab.com/2015/08/zorin-os-themes-icons-available-for.html
-http://www.noobslab.com/2015/08/zorin-os-themes-icons-available-for.html
 
 Icons:
+---------------------------
 - papirus 
 - zoncolor 
 - moka icon
@@ -77,9 +76,10 @@ Icons:
 
 
 What I want add in the future:
+---------------------------
 - intellij
 - atom
-
+- any ideas 
 
 
 
