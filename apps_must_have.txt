@@ -1,0 +1,12 @@
+Moneydance
+Catfish file search
+KeePass2
+Inkdrop - note app 
+FocusWriter
+Atom 
+SublimeText3
+KeepNote - note app
+Pinta - paint
+Pix - photo browser
+Gpick - color picker
+
